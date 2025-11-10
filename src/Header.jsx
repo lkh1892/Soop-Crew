@@ -6,7 +6,7 @@ function Header() {
       <div className="header-container">
         <h1>
             <img src="/vite.svg" alt="로고" className="logo-img" />
-        오락실
+        오락실 지통실
         </h1>
         <nav className="nav">
           <a href="#">홈</a>
