@@ -68,7 +68,26 @@
   .nav a:hover {
     color: #61dafb;
   }
-  
+
+  /* 홈 콘텐츠 - 꽉 채우기 */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* height → min-height로 변경 */
+}
+
+  .home-content {
+    flex: 1;
+    width: 100%;
+    padding: 3vh 5vw;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* 스크롤 시 고정 */
+    opacity: 0.8; /* 0.0 (완전 투명) ~ 1.0 (불투명) */
+    box-sizing: border-box;
+}
+
   /* 메인 콘텐츠 - 꽉 채우기 */
   .main-content {
     flex: 1; /* 남은 공간 모두 차지 */

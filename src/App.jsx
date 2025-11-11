@@ -1,11 +1,14 @@
 import Header from './Header'
-import MainContent from './MainContent'
+import Live from './Live'
+import Home from './Home'
+import MainContent from './Live'
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <Header />
-      <MainContent />
+      <Home />
+      {/* <Live /> */}
     </div>
   )
 }

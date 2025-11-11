@@ -1,6 +1,6 @@
 import './styles.css'
 
-function MainContent() {
+function Live() {
   return (
     <main className="main-content">
       <h2>메인 콘텐츠 영역</h2>
@@ -26,4 +26,4 @@ function MainContent() {
   )
 }
 
-export default MainContent
+export default Live
